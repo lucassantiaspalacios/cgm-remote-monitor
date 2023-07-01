@@ -56,7 +56,11 @@
       ]
     }
   },
- "dependencies": {
+  "engines": {
+    "node": "^10.15.2 || ^8.15.1",
+    "npm": "^6.4.1"
+  },
+  "dependencies": {
     "@babel/core": "^7.11.1",
     "@babel/preset-env": "^7.11.0",
     "apn": "^2.2.0",
